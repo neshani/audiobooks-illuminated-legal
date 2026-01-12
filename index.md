@@ -14,9 +14,11 @@ For standard playback functionality, Audiobooks Illuminated operates as an offli
 
 **2.2 The "Illumination" Shortcode Feature**
 The App includes an optional feature allowing you to download curated artwork packs ("Illuminations") using a "Shortcode."
-*   **Data Transmitted:** When you enter a shortcode, the App generates a cryptographic hash (a digital fingerprint) based on the file structure and duration of the audiobook you are currently viewing. This hash is sent to our server to identify the correct Illumination pack(s).
+
+*   **Authentication:** If you choose to use the online download features, you will be asked to input an API Key. This key is used solely to authenticate your access to the download server. We do not use this key to track your reading history.
+*   **Data Transmitted:** When you enter a shortcode, the App generates a cryptographic hash (a digital fingerprint) based on the file structure and duration of the audiobook you are currently viewing. This hash is sent to our server to identify the correct Illumination pack.
 *   **Purpose:** This data is used solely to match your local book with the correct visual content from our repository.
-*   **Anonymity:** This hash cannot be reversed to reveal your original filenames. We do not link this hash to your personal identity or device ID.
+*   **Anonymity:** This hash cannot be reversed to reveal your original filenames.
 
 **3. App Permissions**
 
